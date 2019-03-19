@@ -46,6 +46,39 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.project-title {
+  font-size: 1.3em; 
+}
+
+.album {
+  background-image: url(https://www.simondata.com/static/img/homepage/illu-homemachine@2x.png);
+  background-size: cover;
+  min-height:500px;
+}
+
+
+.Header-SimonLogo {
+  color: transparent;
+  content: 'Simon Data Logo';
+  background-image: url('https://www.simondata.com/static/img/logofooter-Simon@2x.png');
+  width: 140px;
+  height: 22.5px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-right:20px;
+  margin-bottom:4px;
+
+  @include media-breakpoint-down(md) {
+    margin-bottom: 2rem;
+    margin-top:0px;
+  }
+}
+
+.Header-text {
+
+}
+
 </style>
 
   </head>
@@ -56,7 +89,8 @@ footer p {
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
           <a href="https://simondata.com" class="navbar-brand d-flex align-items-center">
-            <strong>Simon Data</strong>
+            <div class="Header-SimonLogo">Simon Logo</div>
+            <strong class="Header-text">Open Source</strong>
           </a>
         </div>
       </div>
@@ -73,19 +107,20 @@ footer p {
           <p>
             <a href="https://simondata.com" class="btn btn-primary my-2 mx-2">About Simon</a>
             <a href="https://medium.com/simon-systems" class="btn btn-primary my-2 mx-2">Engineering Blog</a>
-            <a href="https://simondata.com/jobs" class="btn btn-primary my-2 mx-2">Careers at Simon</a>
+            <a href="https://simondata.com/jobs" class="btn btn-primary my-2 mx-2">Simon Careers</a>
           </p>
         </div>
       </section>
 
-      <div class="album py-5 bg-light" style="background-image: url(https://www.simondata.com/static/img/homepage/illu-homemachine@2x.png);background-size: cover;min-height:400px;">
+      <div class="album py-5 bg-light">
         <div class="container">
 
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
-                  <p class="card-text">A flexible Java library for SQL queries.</p>
+                  <h2 class="project-title">SQL Extractor</h2>
+                  <p class="card-text">A flexible Java library for SQL queries against any JDBC data source.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
@@ -110,8 +145,9 @@ footer p {
         <p class="float-right">
           <a href="#">Back to top</a>
         </p>
-        <p>&copy; 2019 Simon Data, Inc</p>
+        <p>&copy; 2019 Simon Data, Inc | <a class="" href="https://simondata.com/terms">Terms of Service</a> | <a class="" href="https://simondata.com/privacy">Privacy Policy</a></p>
       </div>
+
     </footer>
 
 
