@@ -1,3 +1,8 @@
+---
+layout: default
+title: Simon Data Open Source
+---
+
 # Code of Conduct
 
 Contributors pledge to make participation in the project community a positive, open, and welcoming experience for others.

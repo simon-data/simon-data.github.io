@@ -1,3 +1,8 @@
+---
+layout: default
+title: Simon Data Open Source
+---
+
 # Contributor Guide
 
 ## Introduction
