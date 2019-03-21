@@ -12,6 +12,8 @@ Thank you for contributing! Simon Data, Inc welcomes contributions from anyone i
 ## II. Help
 If you're having trouble installing or using a project, please start by reading the README.md or relevant documentation and searching for solutions in the existing open and closed issues and pull requests.
 
+Where applicable, use the project-level documentation to reach out for more information. For more general inquiries, you may contact the team at <a href="mailto:opensource@simondata.com">opensource@simondata.com</a>.
+
 ## III. Code of Conduct
 Please read and understand our [Code of Conduct](code_of_conduct.html) prior to contributing. Simon Data wants to ensure that our projects are welcoming and inclusive to as many contributors as possible.
 
