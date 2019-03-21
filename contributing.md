@@ -10,7 +10,7 @@ title: Simon Data Open Source
 Thank you for contributing! Simon Data, Inc welcomes contributions from anyone in the form of original code, comments, bug reports, feature requests. This is a guide to answer common questions about how this project and Open Source Software at Simon Data works.
 
 ## II. Help
-If you're having trouble installing or using this project, please start by reading the README.md and searching for solutions in the existing open and closed issues and pull requests.
+If you're having trouble installing or using a project, please start by reading the README.md or relevant documentation and searching for solutions in the existing open and closed issues and pull requests.
 
 ## III. Code of Conduct
 Please read and understand our [Code of Conduct](code_of_conduct.html) prior to contributing. Simon Data wants to ensure that our projects are welcoming and inclusive to as many contributors as possible.
