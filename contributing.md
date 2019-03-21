@@ -16,7 +16,7 @@ If you're having trouble installing or using this project, please start by readi
 Please read and understand our [Code of Conduct](code_of_conduct.html) prior to contributing. Simon Data wants to ensure that our projects are welcoming and inclusive to as many contributors as possible.
 
 ## IV. Security
-If you have found a security issue with this or another Simon Data project, please reach out to us immediately at security@simondata.com. We will make sure you get credit for finding the bug but this will let us resolve any issues before publicizing fixes.
+If you have found a security issue with this or another Simon Data project, please reach out to us immediately at <a href="mailto:security@simondata.com">security@simondata.com</a>. We will make sure you get credit for finding the bug but this will let us resolve any issues before publicizing fixes.
 
 ## V. Making Contributions
 
