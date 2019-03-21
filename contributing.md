@@ -45,6 +45,6 @@ Simon Data, Inc maintains an agreement with individual contributors.  By contrib
 * Contributors are not expected to provide support for their contributions, except to the extent they desire to provide support.
 * For more information refer directly to the licenses granted implicitly via Github and the project License Agreement.
 
-## V. Joining the Team
+## VII. Joining the Team
 If you love what we're doing and want to work with us full time we'd love to hear from you. Check out open positions on our career page at <a href="https://www.simondata.com/careers">simondata.com/careers</a>. You can also drop us a friendly note, some links to your work, a resume, or similar to <a href="mailto:jobs@simondata.com">jobs@simondata.com</a>.
 
