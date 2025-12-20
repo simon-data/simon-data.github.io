@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Simon Data Open Source
+title: Simon AI Open Source
 ---
 
 # Code of Conduct
@@ -27,10 +27,10 @@ Project maintainers are responsible for clarifying the standards of acceptable b
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this contributor agreement, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the team at <a href="report-abuse@simondata.com">report-abuse@simondata.com</a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the team at <a href="report-abuse@simon.ai">report-abuse@simon.ai</a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
 
 ## Application
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community such as on social media or at a public event. Representation of a project may be further defined and clarified by project maintainers or Simon Data, Inc.
+This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community such as on social media or at a public event. Representation of a project may be further defined and clarified by project maintainers or Simon AI, Inc.
 
 
 ---

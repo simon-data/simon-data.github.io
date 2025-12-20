@@ -1,28 +1,28 @@
 ---
 layout: document
-title: Simon Data Open Source
+title: Simon AI Open Source
 ---
 
 # Contributor Guide
 
 ## I. Introduction
 
-Thank you for contributing! Simon Data, Inc welcomes contributions from anyone in the form of original code, comments, bug reports, feature requests. This is a guide to answer common questions about how this project and Open Source Software at Simon Data works.
+Thank you for contributing! Simon AI, Inc welcomes contributions from anyone in the form of original code, comments, bug reports, feature requests. This is a guide to answer common questions about how this project and Open Source Software at Simon AI works.
 
 ## II. Help
 If you're having trouble installing or using a project, please start by reading the README.md or relevant documentation and searching for solutions in the existing open and closed issues and pull requests.
 
-Where applicable, use the project-level documentation to reach out for more information. For more general inquiries, you may contact the team at <a href="mailto:opensource@simondata.com">opensource@simondata.com</a>.
+Where applicable, use the project-level documentation to reach out for more information. For more general inquiries, you may contact the team at <a href="mailto:opensource@simon.ai">opensource@simon.ai</a>.
 
 ## III. Code of Conduct
-Please read and understand our [Code of Conduct](code_of_conduct.html) prior to contributing. Simon Data wants to ensure that our projects are welcoming and inclusive to as many contributors as possible.
+Please read and understand our [Code of Conduct](code_of_conduct.html) prior to contributing. Simon AI wants to ensure that our projects are welcoming and inclusive to as many contributors as possible.
 
 ## IV. Security
-If you have found a security issue with this or another Simon Data project, please reach out to us immediately at <a href="mailto:security@simondata.com">security@simondata.com</a>. We will make sure you get credit for finding the bug but this will let us resolve any issues before publicizing fixes.
+If you have found a security issue with this or another Simon AI project, please reach out to us immediately at <a href="mailto:security@simon.ai">security@simon.ai</a>. We will make sure you get credit for finding the bug but this will let us resolve any issues before publicizing fixes.
 
 ## V. Making Contributions
 
-Simon Data and core contributors wish to respond in a timely manner to create a healthy open source community.
+Simon AI and core contributors wish to respond in a timely manner to create a healthy open source community.
 
 ### Issues
 When opening a new issue such as for making a bug report or feature request, we encourage contributors to share as much information to reproduce as possible:
@@ -39,12 +39,12 @@ We welcome Pull Requests of new features and bug fixes. When approving and new c
 
 
 ## VI. License and Intellectual Property
-Simon Data, Inc maintains an agreement with individual contributors.  By contributing to the project you are implicitly agreeing to the following terms:
-* Contributors grant Simon Data, Inc and recipients of software distributed by Simon Data, Inc the rights and terms of the license agreement of the project.
+Simon AI, Inc maintains an agreement with individual contributors.  By contributing to the project you are implicitly agreeing to the following terms:
+* Contributors grant Simon AI, Inc and recipients of software distributed by Simon AI, Inc the rights and terms of the license agreement of the project.
 * Contributors acknowledge that each of their contributions is their original creation.
 * Contributors are not expected to provide support for their contributions, except to the extent they desire to provide support.
 * For more information refer directly to the licenses granted implicitly via Github and the project License Agreement.
 
 ## VII. Joining the Team
-If you love what we're doing and want to work with us full time we'd love to hear from you. Check out open positions on our career page at <a href="https://www.simondata.com/careers">simondata.com/careers</a>. You can also drop us a friendly note, some links to your work, a resume, or similar to <a href="mailto:jobs@simondata.com">jobs@simondata.com</a>.
+If you love what we're doing and want to work with us full time we'd love to hear from you. Check out open positions on our career page at <a href="https://www.simon.ai/careers">simon.ai/careers</a>. You can also drop us a friendly note, some links to your work, a resume, or similar to <a href="mailto:jobs@simon.ai">jobs@simon.ai</a>.
 
