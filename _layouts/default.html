@@ -88,11 +88,29 @@
         margin-top: 50px;
         margin-bottom: 30px;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .image-box {
+        background: linear-gradient(135deg, #d8276c 0%, #f8a5c2 100%);
+        padding: 20px;
+        border-radius: 20px;
+        display: inline-block;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .image-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(216, 39, 108, 0.3);
       }
       .jumbotron-images img {
         width: 140px;
-        padding-left: 20px;
-        padding-right: 20px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
       }
       .document-text {
         margin:50px;
