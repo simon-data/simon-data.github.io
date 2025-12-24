@@ -3,6 +3,19 @@ layout: default
 title: Simon AI Open Source
 ---
 
+<style>
+.project-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+</style>
+
 
       <section class="jumbotron text-center">
         <div class="container">
@@ -86,7 +99,7 @@ title: Simon AI Open Source
 
           </div>
 
-          <h2 class="text-center mb-4 mt-5">MCP Servers</h2>
+          <h2 id="mcp-servers" class="text-center mb-4 mt-5"><a href="#mcp-servers">MCP Servers</a></h2>
           <p class="text-center text-muted mb-4">Forks of MCP servers used at Simon AI</p>
 
           <div class="row">
@@ -94,6 +107,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://opensearch.org/assets/brand/SVG/Logo/opensearch_logo_default.svg" alt="OpenSearch" class="project-icon">
                   <h2 class="project-title">opensearch-mcp-server-py</h2>
                   <p class="card-text">MCP server for OpenSearch</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -109,6 +123,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" class="project-icon">
                   <h2 class="project-title">Figma-Context-MCP</h2>
                   <p class="card-text">MCP server to provide Figma layout information to AI coding agents</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -124,6 +139,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://raw.githubusercontent.com/microsoft/playwright.dev/main/static/img/playwright-logo.svg" alt="Playwright" class="project-icon">
                   <h2 class="project-title">playwright-mcp</h2>
                   <p class="card-text">Playwright MCP server</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -139,6 +155,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Zendesk_logo.svg" alt="Zendesk" class="project-icon">
                   <h2 class="project-title">zendesk-mcp-server</h2>
                   <p class="card-text">Fork of zendesk-mcp-server to complete its build system</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -154,6 +171,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://www.vectorlogo.zone/logos/gongio/gongio-icon.svg" alt="Gong" class="project-icon">
                   <h2 class="project-title">gong-mcp</h2>
                   <p class="card-text">Simple Gong MCP server</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -169,6 +187,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://www.vectorlogo.zone/logos/metabase/metabase-icon.svg" alt="Metabase" class="project-icon">
                   <h2 class="project-title">metabase-server</h2>
                   <p class="card-text">Fork of MCP server for Metabase</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -184,6 +203,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg" alt="Salesforce" class="project-icon">
                   <h2 class="project-title">mcp-server-salesforce</h2>
                   <p class="card-text">Salesforce MCP Server</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -199,6 +219,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://wac-cdn.atlassian.com/dam/jcr:e348b562-4152-4cdc-8a55-3d297e509cc8/Jira%20Software-blue.svg" alt="Atlassian" class="project-icon">
                   <h2 class="project-title">mcp-atlassian</h2>
                   <p class="card-text">MCP server for Atlassian tools (Confluence, Jira)</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -213,7 +234,7 @@ title: Simon AI Open Source
 
           </div>
 
-          <h2 class="text-center mb-4 mt-5">Singer taps</h2>
+          <h2 id="singer-taps" class="text-center mb-4 mt-5"><a href="#singer-taps">Singer taps</a></h2>
           <p class="text-center text-muted mb-4">Singer taps hosted by Simon AI for data ingestion</p>
 
           <div class="row">
@@ -221,6 +242,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://images.ctfassets.net/qeopvtiy4eew/3mI8rxikFTc5OYMzMPaPkB/ccdd1fd4a34cce6171c24a00e2da2a86/campaignmonitor_logo_200x200_square.svg" alt="Campaign Monitor" class="project-icon">
                   <h2 class="project-title">tap-campaignmonitor</h2>
                   <p class="card-text">Singer tap for Campaign Monitor</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -236,6 +258,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://www.vectorlogo.zone/logos/sendgrid/sendgrid-icon.svg" alt="SendGrid" class="project-icon">
                   <h2 class="project-title">tap-sendgrid</h2>
                   <p class="card-text">Singer tap for SendGrid marketing</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -251,6 +274,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l7.26 3.63L12 11.44 4.74 7.81 12 4.18zM4 9.37l7 3.5v6.95l-7-3.5V9.37zm9 10.45v-6.95l7-3.5v6.95l-7 3.5z'/%3E%3C/svg%3E" alt="Hudson Ltd" class="project-icon">
                   <h2 class="project-title">tap-hudsonltd</h2>
                   <p class="card-text">Singer tap for Hudson Ltd</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -266,6 +290,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l7.26 3.63L12 11.44 4.74 7.81 12 4.18zM4 9.37l7 3.5v6.95l-7-3.5V9.37zm9 10.45v-6.95l7-3.5v6.95l-7 3.5z'/%3E%3C/svg%3E" alt="Tap Kit" class="project-icon">
                   <h2 class="project-title">tap-kit</h2>
                   <p class="card-text">Singer tap development kit</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -281,6 +306,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/oracle.svg" alt="Opera" class="project-icon">
                   <h2 class="project-title">tap-opera</h2>
                   <p class="card-text">Singer tap for Opera</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -296,6 +322,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://images.ctfassets.net/qeopvtiy4eew/4JfwYR22k8iycO20OUQOWW/1ca302207033b7043a278c555637acb0/klaviyo_logo_200x200_square.svg" alt="Klaviyo" class="project-icon">
                   <h2 class="project-title">tap-klaviyo</h2>
                   <p class="card-text">Singer tap for Klaviyo</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -311,6 +338,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn" class="project-icon">
                   <h2 class="project-title">tap-linkedin-marketing</h2>
                   <p class="card-text">Singer tap for LinkedIn Marketing</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -326,6 +354,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l7.26 3.63L12 11.44 4.74 7.81 12 4.18zM4 9.37l7 3.5v6.95l-7-3.5V9.37zm9 10.45v-6.95l7-3.5v6.95l-7 3.5z'/%3E%3C/svg%3E" alt="WalkScore" class="project-icon">
                   <h2 class="project-title">tap-walkscore</h2>
                   <p class="card-text">Singer tap for WalkScore</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -341,6 +370,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l7.26 3.63L12 11.44 4.74 7.81 12 4.18zM4 9.37l7 3.5v6.95l-7-3.5V9.37zm9 10.45v-6.95l7-3.5v6.95l-7 3.5z'/%3E%3C/svg%3E" alt="Gleantap" class="project-icon">
                   <h2 class="project-title">tap-gleantap</h2>
                   <p class="card-text">Singer tap for Gleantap</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -356,6 +386,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.worldvectorlogo.com/logos/bynder.svg" alt="Bynder" class="project-icon">
                   <h2 class="project-title">tap-bynder</h2>
                   <p class="card-text">Singer tap for extracting from Bynder API</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -371,6 +402,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mailchimp.svg" alt="Mailchimp" class="project-icon">
                   <h2 class="project-title">tap-mailchimp-export</h2>
                   <p class="card-text">Extracts data from the Mailchimp Bulk Export API</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -386,6 +418,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://images.ctfassets.net/qeopvtiy4eew/5LxGN8zmdcSyDgIrBPzLIR/cab3b1376a12698057c23b977c6c0bf3/listrak_logo_200x200_square.svg" alt="Listrak" class="project-icon">
                   <h2 class="project-title">tap-listrak</h2>
                   <p class="card-text">Singer tap for Listrak</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -401,6 +434,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l7.26 3.63L12 11.44 4.74 7.81 12 4.18zM4 9.37l7 3.5v6.95l-7-3.5V9.37zm9 10.45v-6.95l7-3.5v6.95l-7 3.5z'/%3E%3C/svg%3E" alt="ABC Financial" class="project-icon">
                   <h2 class="project-title">tap-abcfinancial</h2>
                   <p class="card-text">Singer tap for extracting from the ABC Financial API</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -416,6 +450,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l7.26 3.63L12 11.44 4.74 7.81 12 4.18zM4 9.37l7 3.5v6.95l-7-3.5V9.37zm9 10.45v-6.95l7-3.5v6.95l-7 3.5z'/%3E%3C/svg%3E" alt="Listen360" class="project-icon">
                   <h2 class="project-title">tap-listen360</h2>
                   <p class="card-text">Singer tap for Listen 360 integration</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -431,6 +466,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://images.ctfassets.net/qeopvtiy4eew/6kkdVE86PHPsub1wGK9KDg/7c9e5a84c03801ef1ed03fb1bd230cc1/eloqua_logo_200x200_square.svg" alt="Eloqua" class="project-icon">
                   <h2 class="project-title">tap-eloqua</h2>
                   <p class="card-text">Singer tap for Eloqua</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -446,6 +482,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Zendesk_logo.svg" alt="Zendesk" class="project-icon">
                   <h2 class="project-title">tap-zendesk</h2>
                   <p class="card-text">Singer tap for extracting from Zendesk</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -461,6 +498,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/sap.svg" alt="Gigya" class="project-icon">
                   <h2 class="project-title">tap-gigya</h2>
                   <p class="card-text">Singer tap for Gigya API</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -476,6 +514,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/contentful.svg" alt="Contentful" class="project-icon">
                   <h2 class="project-title">tap-contentful</h2>
                   <p class="card-text">Singer tap for extracting data from the Contentful Content Delivery API</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -491,6 +530,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.brandfetch.io/idr54tWwj4/theme/dark/symbol.svg" alt="Greenhouse" class="project-icon">
                   <h2 class="project-title">tap-greenhouse</h2>
                   <p class="card-text">Singer tap for extracting from Greenhouse Harvest API</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -506,6 +546,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://images.ctfassets.net/qeopvtiy4eew/51YUcL5vBfcwDepKjHFe3l/f157bcadfa09a04de2da95f5b5ddbe27/outreach_logo_200x200_square.svg" alt="Outreach" class="project-icon">
                   <h2 class="project-title">tap-outreach</h2>
                   <p class="card-text">Singer Tap that extracts from Outreach</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -521,6 +562,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/woocommerce.svg" alt="WooCommerce" class="project-icon">
                   <h2 class="project-title">tap-woocommerce</h2>
                   <p class="card-text">Singer tap for WooCommerce</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -536,6 +578,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mailchimp.svg" alt="Chatitive" class="project-icon">
                   <h2 class="project-title">tap-chatitive</h2>
                   <p class="card-text">Singer tap for extracting from Chatitive</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -551,6 +594,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://images.ctfassets.net/qeopvtiy4eew/1wiY3fPmUn3zmRr6SOBu4V/9c3b4d60f49c388ee940b0fdd600949e/salesforce_pardot_logo_200x200_square.svg" alt="Pardot" class="project-icon">
                   <h2 class="project-title">tap-pardot</h2>
                   <p class="card-text">Singer tap for Pardot</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -566,6 +610,7 @@ title: Simon AI Open Source
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
+                  <img src="https://images.ctfassets.net/qeopvtiy4eew/3HfzhgJflS4yKK0wuyAoCk/a424b342f29eedcb4d49bdb038d9a039/bronto_logo_200x200_square.svg" alt="Bronto" class="project-icon">
                   <h2 class="project-title">tap-bronto</h2>
                   <p class="card-text">Singer.io tap for extracting data from the Bronto API</p>
                   <div class="d-flex justify-content-between align-items-center">
